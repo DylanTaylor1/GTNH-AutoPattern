@@ -30,25 +30,21 @@ The following requires access to EV circuits and epoxid (mid-late HV). It is pos
 
 7) Prepare a stockpile of dummy patterns and insert them into the ME dual interface before running the script.
 
-![Full Setup](media/FullSetup.png?)
+<img src="media/FullSetup.png" width="500">
 
 # Dummy Patterns
-Dummy patterns are necessary because blank patterns cannot be edited or even inserted into an ME dual interface. Dummy patterns in this case are just like normal patterns except they have any SINGLE item for an input and any SINGLE item for an output (e.g. 1 stone makes 1 stone). The exact items are irrelevant since the data is overwritten anyway. Encode dummy patterns in an ME pattern terminal and make an entire stack at once by holding SHIFT+CTRL.
+Dummy patterns are necessary because blank patterns cannot be edited or even inserted into an ME dual interface. Dummy patterns in this case are just like normal patterns except they have a SINGLE random input and a SINGLE random output (e.g. 1 stone makes 1 stone). The exact items are irrelevant since the data is overwritten anyway. Encode dummy patterns in an ME pattern terminal and make an entire stack at once by holding SHIFT+CTRL.
 
-![Dummy Pattern](media/DummyPattern.png?)
+<img src="media/Interface.png" height="250"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="media/DummyPattern.png" height="200" align="top">
 
 Automation methods cannot insert the dummy patterns into the proper slots of an ME dual interface so they need to be inserted manually, but that is a single shift-click for up to 36 at once. The script always begins with the first slot in the interface (bottom-left) and moves in order to the last slot (top-right). If it cannot find a dummy pattern in the next slot, then it stops immediately and prints an error message to the screen.
 
-![Interface](media/Interface.png?)
-
 # Running the Scripts
-The main script is "pattern" and it works by pulling the data from one of the many different recipe files or batches stored locally on the computer. Run the script by entering the following command where <key> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface until everything in that file or batch is successfully patterned.
-
-The only thing the script cannot do is rename items. If applicable, that must be done afterwards in a pattern terminal. Recipes with over 32 inputs should also never be updated or adjusted in a pattern terminal because that reduces them back down to 32 inputs. If absolutely necessary, adjust the recipe files themselves.
+The main script is "pattern" and it works by pulling the data from one of the many different recipe files or batches stored locally on the computer. Run the script by entering the following command where \<key\> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface until everything in that file or batch is successfully patterned. Renamed items must be added manually afterwards in a pattern terminal, if applicable.
 
        pattern <key>
 
-The helper script "scan" works in reverse of the main script. It extracts all the data from all the patterns in the ME dual interface, parses it into the proper format, and then outputs everything into a separate file called results.txt. Scan is not necessary and likely never needs to be used by the average player but it can help build the recipe files used by the main script.
+The helper script "scan" works in reverse of the main script. It extracts all the pattern data from the ME dual interface, parses it into the proper format, and then outputs everything into a separate file called results.txt. Scan is not necessary and likely never needs to be used by the average player, but it can help build the recipe files for the main script.
 
        scan
 
