@@ -30,11 +30,21 @@ The following requires access to EV circuits and epoxid (mid-late HV). It is pos
 
 7) Prepare a stockpile of dummy patterns and insert them into the ME dual interface before running the script.
 
+![Full Setup](media/FullSetup.png?)
+
 # Dummy Patterns
-Dummy patterns are necessary because blank patterns cannot be edited or even inserted into an ME dual interface. Dummy patterns in this case are just like normal patterns except they have any SINGLE item for an input and any SINGLE item for an output (e.g. 1 stone makes 1 stone). The exact items are irrelevant since the data is overwritten anyway. Encode dummy patterns in an ME pattern terminal and make an entire stack at once by holding SHIFT+CTRL. Automation methods cannot insert the dummy patterns into the proper slots of an ME dual interface so they need to be inserted manually, but that is a single shift-click for up to 36 at once. The script always begins with the first slot in the interface (bottom-left) and moves in order to the last slot (top-right). If it cannot find a dummy pattern in the next slot, then it stops immediately and prints an error message to the screen.
+Dummy patterns are necessary because blank patterns cannot be edited or even inserted into an ME dual interface. Dummy patterns in this case are just like normal patterns except they have any SINGLE item for an input and any SINGLE item for an output (e.g. 1 stone makes 1 stone). The exact items are irrelevant since the data is overwritten anyway. Encode dummy patterns in an ME pattern terminal and make an entire stack at once by holding SHIFT+CTRL.
+
+![Dummy Pattern](media/DummyPattern.png?)
+
+Automation methods cannot insert the dummy patterns into the proper slots of an ME dual interface so they need to be inserted manually, but that is a single shift-click for up to 36 at once. The script always begins with the first slot in the interface (bottom-left) and moves in order to the last slot (top-right). If it cannot find a dummy pattern in the next slot, then it stops immediately and prints an error message to the screen.
+
+![Interface](media/Interface.png?)
 
 # Running the Scripts
-The main script is "pattern" and it works by pulling the data from one of the many different recipe files or batches stored locally on the computer. Run the script by entering the following command where <key> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface until everything in that file or batch is successfully patterned. The only thing it cannot do is rename items so that must be done afterwards in a pattern terminal, if applicable. Recipes with over 32 inputs should never be placed into a pattern terminal for adjustments, or else they are reduced back down to 32 inputs. If absolutely necessary, make adjustments to the recipe files themselves.
+The main script is "pattern" and it works by pulling the data from one of the many different recipe files or batches stored locally on the computer. Run the script by entering the following command where <key> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface until everything in that file or batch is successfully patterned.
+
+The only thing the script cannot do is rename items. If applicable, that must be done afterwards in a pattern terminal. Recipes with over 32 inputs should also never be updated or adjusted in a pattern terminal because that reduces them back down to 32 inputs. If absolutely necessary, adjust the recipe files themselves.
 
        pattern <key>
 
