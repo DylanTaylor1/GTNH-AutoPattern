@@ -1,28 +1,19 @@
 local shell = require('shell')
 local args = {...}
-local branch
-local repo
+local repo = args[1] or 'https://raw.githubusercontent.com/DylanTaylor1/GTNH-AutoPattern/'
+local branch = args[2] or 'main'
+local dir = 'recipes_2.9'
+
 local scripts = {
   'pattern.lua',
   'scan.lua',
   'uninstall.lua',
-  'recipes_2.9'}
+  dir .. '/NAC_circuits.lua'}
 
--- Repo
-if #args >= 1 then
-    repo = args[1]
-else
-    repo = 'https://raw.githubusercontent.com/DylanTaylor1/GTNH-AutoPattern/'
-end
+-- Create Folder
+shell.execute('mkdir -p ' .. dir)
 
--- Branch
-if #args >= 2 then
-    branch = args[2]
-else
-    branch = 'main'
-end
-
--- Install
+-- Install Files
 for i=1, #scripts do
-    shell.execute(string.format('wget -f %s%s/%s', repo, branch, scripts[i]))
+  shell.execute(string.format('wget -f %s%s/%s %s', repo, branch, scripts[i], scripts[i]))
 end
