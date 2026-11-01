@@ -23,8 +23,8 @@ The following requires access to EV circuits and epoxid (mid-late HV). It is pos
 1) Place the computer case, screen, keyboard, and adapter in any sort of orientation as long as they can all connect to each other.
 2) Place a full-block ME dual interface next to the adapter. The interface does not have to be powered or part of an AE2 network.
 3) Insert the bare minimum components into the computer case. Power the computer with an AE2 cable, neutronium energy cell, or power converter.
-5) Turn the computer on and follow the commands on screen 'install' --> 'Y' --> 'Y'. The OpenOS floppy disk is no longer needed in the robot afterwards.
-6) Install the required scripts by copying this line of code into the robot (middle-click to paste).
+5) Turn the computer on and follow the commands on screen 'install' --> 'Y' --> 'Y'. The OpenOS floppy disk is no longer needed in the computer afterwards.
+6) Install the required scripts by copying this line of code into the computer (middle-click to paste).
 
        wget https://raw.githubusercontent.com/DylanTaylor1/GTNH-AutoPattern/main/setup.lua && setup
 
