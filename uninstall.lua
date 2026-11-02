@@ -5,6 +5,7 @@ local scripts = {
   'setup.lua',
   'pattern.lua',
   'scan.lua',
+  'result.txt',
   'uninstall.lua'}
 
 -- Uninstall Files
