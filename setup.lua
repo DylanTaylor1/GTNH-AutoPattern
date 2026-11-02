@@ -8,7 +8,13 @@ local scripts = {
   'pattern.lua',
   'scan.lua',
   'uninstall.lua',
-  dir .. '/NAC_circuits.lua'}
+  dir .. '/NAC_circuits.lua',
+  dir .. '/BEC_parts.lua',
+  dir .. '/BEC_eoh.lua',
+  dir .. '/BEC_stargate.lua',
+  dir .. '/BEC_misc.lua',
+  dir .. '/BEC_all.lua',
+}
 
 -- Create Folder
 shell.execute('mkdir -p ' .. dir)
