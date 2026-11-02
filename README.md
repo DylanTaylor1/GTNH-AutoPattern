@@ -15,17 +15,18 @@ The following requires access to EV circuits and epoxid (mid-late HV). It is pos
 - Internet Card
 - Keyboard
 - Adapter
+- ME Dual Interface(s)
 - EEPROM (Lua BIOS) [1]
 - OpenOS Floppy Disk [2]
 
 <img src="media/Components.png" width="400">
 
-[1]  The EEPROM must have Lua BIOS to work.<br />
+[1]  The EEPROM must have a Lua BIOS to work.<br />
 [2]  The Floppy Disk must be OpenOS to work. Look for the green one that says OpenOS in its tooltip.
 
 # Building the Setup
 1) Place the computer case, screen, keyboard, and adapter in any sort of orientation as long as they can all connect to each other.
-2) Place a full-block ME dual interface next to the adapter. The interface does not have to be powered or part of an AE2 network.
+2) Place the full-block ME dual interface(s) next to the adapter. The interface(s) do not have to be powered or part of an AE2 network to work.
 3) Insert the bare minimum components into the computer case. Power the computer with an AE2 cable, neutronium energy cell, or power converter.
 5) Turn the computer on and follow the commands on screen 'install' --> 'Y' --> 'Y'. The OpenOS floppy disk is no longer needed in the computer afterwards.
 6) Install the required scripts by copying this line of code into the computer (middle-click to paste).
@@ -44,7 +45,7 @@ Dummy patterns are necessary because blank patterns cannot be edited or even ins
 Automation methods cannot insert the dummy patterns into the proper slots of an ME dual interface so they need to be inserted manually, but that is a single shift-click for up to 36 at once. The script always begins with the first slot in the interface (bottom-left) and moves in order to the last slot (top-right). If it cannot find a dummy pattern in the next slot, then it stops immediately and prints an error message to the screen.
 
 # Running the Scripts
-The main script is "pattern" and it works by pulling the data from one of the many different recipe files or batches stored locally on the computer. Run the script by entering the following command where \<key\> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface until everything in that file or batch is successfully patterned. Renamed items must be added manually afterwards in a pattern terminal, if applicable.
+The main script is "pattern" and it works by pulling the data from the different recipe files or batches stored locally on the computer. Run the script by entering the following command where \<key\> refers to one of the recipe filenames (e.g. NAC_circuits). After some basic input validation, it immediately starts overwriting the dummy patterns in the ME dual interface(s) until everything in that file or batch is successfully patterned. Renamed items must be added manually afterwards in a pattern terminal, if applicable.
 
        pattern <key>
 
