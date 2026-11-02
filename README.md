@@ -2,11 +2,12 @@
 These OpenComputers (OC) scripts automatically pattern recipes in large batches with a single command. The inputs/outputs of each recipe are stored as code which can be quickly referenced at any time and updated as necessary; they do not need to be stored in a subnetwork or database address. Autopatterning is perfect for making many recipes at once and for recipes that are not easily translatable from NEI (e.g. NAC or BEC recipes). The only player intervention is providing dummy patterns to an ME dual interface and then distributing the final patterns to wherever they are needed.
 
 # Bare Minimum Components
-The following requires access to EV circuits and epoxid (mid-late HV). It is possible to save some resources by not including the internet card, but that would require manually copying and pasting the code from GitHub which is NOT recommended for multiple reasons. Do not mix up central processing unit (CPU) with accelerated processing unit (APU).
+The following requires access to EV circuits and epoxid (mid-late HV). It is possible to save some resources by not including the internet card, but that would require manually copying and pasting the code from GitHub which is NOT recommended for multiple reasons. Higher tier components are recommended because they help the computer and therefore the script run slightly faster.
 
-- Tier 2 Computer Case
+- Tier 3 Computer Case
 - Tier 2 Memory
-- Tier 1 Accelerated Processing Unit
+- Tier 1 Graphics Card
+- Tier 1 Central Processing Unit
 - Tier 1 Hard Disk Drive
 - Tier 1 Screen
 - Internet Card
@@ -15,11 +16,12 @@ The following requires access to EV circuits and epoxid (mid-late HV). It is pos
 - EEPROM (Lua BIOS) [1]
 - OpenOS Floppy Disk [2]
 
-[1]  A regular EEPROM without Lua BIOS does not work.
-[2]  Any other type of floppy disk does not work. The OpenOS one is green and says OpenOS in its tooltip.
+<img src="media/Components.png" width="400">
+
+[1]  The EEPROM must have Lua BIOS to work.<br />
+[2]  The Floppy Disk must be OpenOS to work. Look for the green one that says OpenOS in its tooltip.
 
 # Building the Setup
-
 1) Place the computer case, screen, keyboard, and adapter in any sort of orientation as long as they can all connect to each other.
 2) Place a full-block ME dual interface next to the adapter. The interface does not have to be powered or part of an AE2 network.
 3) Insert the bare minimum components into the computer case. Power the computer with an AE2 cable, neutronium energy cell, or power converter.
