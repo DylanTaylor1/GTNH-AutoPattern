@@ -1,5 +1,7 @@
 # Introduction
-These OpenComputers (OC) scripts automatically pattern recipes in large batches with a single command. The inputs/outputs of each recipe are stored as code which can be quickly referenced at any time and updated as necessary; they do not need to be stored in a subnetwork or database address. Autopatterning is perfect for making many recipes at once and for recipes that are not easily translatable from NEI (e.g. NAC or BEC recipes). The only player intervention is providing dummy patterns to an ME dual interface and then distributing the final patterns to wherever they are needed.
+These OpenComputers (OC) scripts automatically pattern recipes in large batches with a single command. The inputs/outputs of each recipe are stored as code which can be quickly referenced at any time and updated as necessary; they do not need to be stored in a subnetwork or database address. Autopatterning is perfect for making many recipes at once and for recipes that are not easily translatable from NEI (e.g. NAC recipes). The only player intervention is providing dummy patterns to an ME dual interface and then distributing the final patterns to wherever they are needed.
+
+<img src="media/Preview.gif" width="400">
 
 # Bare Minimum Components
 The following requires access to EV circuits and epoxid (mid-late HV). It is possible to save some resources by not including the internet card, but that would require manually copying and pasting the code from GitHub which is NOT recommended for multiple reasons. Higher tier components are recommended because they help the computer and therefore the script run slightly faster.
