@@ -14,6 +14,11 @@ local scripts = {
   dir .. '/BEC_stargate.lua',
   dir .. '/BEC_misc.lua',
   dir .. '/BEC_all.lua',
+  dir .. '/COAL_LV-EV.lua',
+  dir .. '/COAL_IV-UV.lua',
+  dir .. '/COAL_UHV-UMV.lua',
+  dir .. '/COAL_UXV.lua',
+  dir .. '/COAL_all.lua',
 }
 
 -- Create Folder
