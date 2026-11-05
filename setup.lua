@@ -19,6 +19,11 @@ local scripts = {
   dir .. '/COAL_UHV-UMV.lua',
   dir .. '/COAL_UXV.lua',
   dir .. '/COAL_all.lua',
+  dir .. '/Dire_tech.lua',
+  dir .. '/Dire_gear.lua',
+  dir .. '/Dire_creative.lua',
+  dir .. '/Dire_stargate.lua',
+  dir .. '/Dire_all.lua',
 }
 
 -- Create Folder
