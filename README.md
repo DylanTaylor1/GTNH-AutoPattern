@@ -49,7 +49,7 @@ The main script is "pattern" and it works by pulling the data from the different
 
        pattern <key>
 
-The helper script "scan" works in reverse of the main script and has two modes. The first is "all" which extracts all the pattern data from the ME dual interface, parses it into a table, and then outputs everything into a separate file called results.txt. The second is "name" which outputs only the name of the outputs to the same separate file. Scan likely never needs to be used by the average player, but it can help build the recipe files for the main script and document them.
+The helper script "scan" works in reverse of the main script and has two different modes or secondary arguments. The first is "all" which extracts all the pattern data from the ME dual interface, parses it into a table, and then outputs everything into a separate file called results.txt. The second is "name" which outputs only the name of the outputs to the same separate file. Scan likely never needs to be used by the average player, but it can help build the recipe files for the main script and document them.
 
        scan
 
