@@ -36,6 +36,9 @@ local scripts = {
   dir .. '/NeuComp_blackhole.lua',
   dir .. '/NeuComp_all.lua',
   dir .. '/NanoForge.lua',
+  dir .. '/CAL_regular.lua',
+  dir .. '/CAL_soc.lua',
+  dir .. '/CAL_all.lua',
 }
 
 -- Create Folder

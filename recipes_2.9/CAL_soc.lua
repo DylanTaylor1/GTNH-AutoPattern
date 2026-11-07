@@ -1,0 +1,58 @@
+return {
+  {
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=32081, label='NAND Chip Array'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32756, label='Wrap of Advanced Circuit Board'},
+  {type='item', size=4, name='bartworks:gt.bwMetaGeneratedItem0', damage=32728, label='Wrap of Simple SoC'},
+  {type='item', size=16, name='gregtech:gt.metaitem.01', damage=26308, label='Red Alloy Bolt'},
+  {type='item', size=1, name='gregtech:gt.blockmachines', damage=1362, label='4x Copper Wire'},
+  {type='fluid', size=18, name='molten.solderingalloy', damage=nil, label='Molten Soldering Alloy'}},
+  {
+  {type='item', size=32, name='gregtech:gt.metaitem.03', damage=32078, label='Microprocessor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32748, label='Wrap of Better Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32731, label='Wrap of SoC'},
+  {type='item', size=2, name='gregtech:gt.blockmachines', damage=1362, label='4x Copper Wire'},
+  {type='item', size=32, name='gregtech:gt.metaitem.01', damage=26035, label='Copper Bolt'},
+  {type='fluid', size=72, name='molten.solderingalloy', damage=nil, label='Molten Soldering Alloy'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32080, label='Integrated Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32748, label='Wrap of Better Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32731, label='Wrap of SoC'},
+  {type='item', size=4, name='gregtech:gt.blockmachines', damage=2002, label='4x Red Alloy Wire'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=26345, label='Annealed Copper Bolt'},
+  {type='fluid', size=72, name='molten.solderingalloy', damage=nil, label='Molten Soldering Alloy'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32082, label='Nano Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32756, label='Wrap of Advanced Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32730, label='Wrap of ASoC'},
+  {type='item', size=8, name='gregtech:gt.blockmachines', damage=1442, label='4x Electrum Wire'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=26085, label='Platinum Bolt'},
+  {type='fluid', size=72, name='molten.indalloy140', damage=nil, label='Molten Indalloy 140'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32085, label='Quantum Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32754, label='Wrap of More Advanced Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32730, label='Wrap of ASoC'},
+  {type='item', size=16, name='gregtech:gt.blockmachines', damage=1642, label='4x Platinum Wire'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=26360, label='Niobium-Titanium Bolt'},
+  {type='fluid', size=72, name='molten.indalloy140', damage=nil, label='Molten Indalloy 140'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32089, label='Crystal Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32753, label='Wrap of Elite Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32717, label='Wrap of Crystal SoC'},
+  {type='item', size=8, name='gregtech:gt.blockmachines', damage=1722, label='4x Niobium-Titanium Wire'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=26358, label='Yttrium Barium Cuprate Bolt'},
+  {type='fluid', size=72, name='molten.indalloy140', damage=nil, label='Molten Indalloy 140'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32092, label='Wetware Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32750, label='Wrap of Extreme Wetware Lifesupport Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32700, label='Wrap of Living Crystal Chip'},
+  {type='item', size=8, name='gregtech:gt.blockmachines', damage=1762, label='4x Yttrium Barium Cuprate Wire'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=26982, label='Cosmic Neutronium Bolt'},
+  {type='fluid', size=144, name='molten.indalloy140', damage=nil, label='Molten Indalloy 140'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32097, label='Bioware Processor'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32746, label='Wrap of Ultra Bio Mutated Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32699, label='Wrap of Living Bio Chip'},
+  {type='item', size=16, name='gregtech:gt.blockmachines', damage=1722, label='4x Niobium-Titanium Wire'},
+  {type='item', size=64, name='miscutils:itemBoltChromaticGlass', damage=0, label='Chromatic Glass Bolt'},
+  {type='fluid', size=144, name='molten.mutatedlivingsolder', damage=nil, label='Mutated Living Solder'}},
+}
