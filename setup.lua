@@ -24,6 +24,18 @@ local scripts = {
   dir .. '/Dire_creative.lua',
   dir .. '/Dire_stargate.lua',
   dir .. '/Dire_all.lua',
+  dir .. '/Comp_HIP1.lua',
+  dir .. '/Comp_HIP2.lua',
+  dir .. '/Comp_HIP3.lua',
+  dir .. '/Comp_singularity1.lua',
+  dir .. '/Comp_singularity2.lua',
+  dir .. '/Comp_blackhole.lua',
+  dir .. '/Comp_all.lua',
+  dir .. '/NeuComp_singularity1.lua',
+  dir .. '/NeuComp_singularity2.lua',
+  dir .. '/NeuComp_blackhole.lua',
+  dir .. '/NeuComp_all.lua',
+  dir .. '/NanoForge.lua',
 }
 
 -- Create Folder
