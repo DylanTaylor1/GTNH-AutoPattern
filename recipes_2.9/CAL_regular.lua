@@ -1,5 +1,13 @@
 return {
   {
+  {type='item', size=16, name='Forestry:chipsets', damage=0, label='Basic Circuit Board'},
+  {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32760, label='Wrap of Circuit Board'},
+  {type='item', size=32, name='gregtech:gt.metaitem.03', damage=32075, label='NAND Chip'},
+  {type='item', size=32, name='gregtech:gt.metaitem.01', damage=29032, label='Iron Foil'},
+  {type='item', size=64, name='gregtech:gt.metaitem.01', damage=27032, label='Iron Screw'},
+  {type='item', size=1, name='gregtech:gt.blockmachines', damage=1302, label='4x Iron Wire'},
+  {type='fluid', size=576, name='molten.solderingalloy', damage=nil, label='Molten Soldering Alloy'}},
+  {
   {type='item', size=16, name='Forestry:chipsets', damage=1, label='Enhanced Circuit Board'},
   {type='item', size=1, name='bartworks:gt.bwMetaGeneratedItem0', damage=32760, label='Wrap of Circuit Board'},
   {type='item', size=32, name='gregtech:gt.metaitem.03', damage=32078, label='Microprocessor'},

@@ -358,7 +358,7 @@ return {
   {type='fluid', size=1000, name='exciteddtec', damage=nil, label='Excited Dimensionally Transcendent Exotic Catalyst'},
   {type='fluid', size=1280, name='lubricant', damage=nil, label='Lubricant'},
   {type='fluid', size=80, name='dimensionallyshiftedsuperfluid', damage=nil, label='Dimensionally Shifted Superfluid'},
-  {type='fluid', size=500, name='grade8purifiedwater', damage=nil, label='Subatomically Perfect Water (Grade 8)'},
+  {type='fluid', size=1000, name='grade7purifiedwater', damage=nil, label='Degassed Decontaminant-Free Water (Grade 7)'},
   {type='fluid', size=500, name='spatialfluid', damage=nil, label='Spatially Enlarged Fluid'},
   {type='fluid', size=288, name='molten.radoxpoly', damage=nil, label='Molten Radox Polymer'},
   {type='fluid', size=2000, name='dimensionallytranscendentresidue', damage=nil, label='Dimensionally Transcendent Residue'}},
@@ -380,7 +380,7 @@ return {
   {type='fluid', size=1000, name='primordialmatter', damage=nil, label='Liquid Primordial Matter'},
   {type='fluid', size=2304, name='molten.radoxpoly', damage=nil, label='Molten Radox Polymer'},
   {type='fluid', size=4000, name='exciteddtsc', damage=nil, label='Excited Dimensionally Transcendent Stellar Catalyst'},
-  {type='fluid', size=500, name='grade8purifiedwater', damage=nil, label='Subatomically Perfect Water (Grade 8)'},
+  {type='fluid', size=1000, name='grade7purifiedwater', damage=nil, label='Degassed Decontaminant-Free Water (Grade 7)'},
   {type='fluid', size=1440, name='molten.magmatter', damage=nil, label='Molten Magmatter'}},
   {
   {type='item', size=1, name='dreamcraft:PlanckCircuit', damage=0, label='Planck-Scale Circuit'},
