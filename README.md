@@ -62,8 +62,9 @@ The following are all the currently available recipe batches/files. All of them 
 
 For a complete written-out list and screenshots of each recipe file/batch, see [here](https://docs.google.com/spreadsheets/d/1VLpIZcV4zaBRzAb6_3RFL7HinYWas0tgBN9JcdpFpb8/edit?usp=sharing).
 
-CoAL recipes always use silicone rubber. Dire crafting table recipes always use crystal circuits, if possible. Proto-halkonite steel parts always use infinity instead of mellion or creon. CAL recipes use advanced SMDs but can later upgrade to optical SMDs. The iron, copper, tin, leaden, and eternal singularities all have a blackhole and a non-blackhole recipe. NAC recipes all use the lowest tier superconductor possible.
+CoAL recipes always use silicone rubber. Dire crafting table recipes always use crystal circuits, if possible. Proto-halkonite steel parts always use infinity instead of mellion or creon. CAL recipes use advanced SMDs but can later upgrade to optical SMDs. The iron, copper, tin, leaden, and eternal singularities all have a blackhole and a non-blackhole recipe. NAC recipes all use the lowest tier superconductor possible. Target Chamber recipes primarily use europium doped wafers. The DEFC dragonblood recipe uses an infinity egg and combs. The PCB recipes use a trace size of 50 and PBI plates for T1, kevlar plates for T2, and radox plates for T3.
 
+- BeamCrafter
 - BEC_parts
 - BEC_EOH
 - BEC_stargate
@@ -85,6 +86,7 @@ CoAL recipes always use silicone rubber. Dire crafting table recipes always use 
 - Comp_blackhole
 - Comp_misc
 - Comp_all
+- DEFC
 - Dire_tech
 - Dire_gear
 - Dire_creative
@@ -96,3 +98,9 @@ CoAL recipes always use silicone rubber. Dire crafting table recipes always use 
 - NeuComp_singularity2
 - NeuComp_blackhole
 - NeuComp_all
+- NFR
+- PCB_T1
+- PCB_T2
+- PCB_T3
+- TargetChamber
+- TPM
