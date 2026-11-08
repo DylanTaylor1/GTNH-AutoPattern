@@ -39,6 +39,9 @@ local scripts = {
   dir .. '/CAL_regular.lua',
   dir .. '/CAL_soc.lua',
   dir .. '/CAL_all.lua',
+  dir .. '/TargetChamber.lua',
+  dir .. '/BeamCrafter.lua',
+  dir .. '/TPM.lua',
 }
 
 -- Create Folder
