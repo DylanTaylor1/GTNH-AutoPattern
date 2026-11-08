@@ -1,0 +1,46 @@
+return {
+  {
+  {type='item', size=92, name='gregtech:gt.metaitem.03', damage=32106, label='Better Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=39, name='gregtech:gt.metaitem.01', damage=29345, label='Annealed Copper Foil'},
+  {type='item', size=39, name='gregtech:gt.metaitem.01', damage=29035, label='Copper Foil'},
+  {type='fluid', size=1224, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=612, name='ironiiichloride', damage=nil, label='Iron III Chloride'}},
+  {
+  {type='item', size=64, name='gregtech:gt.metaitem.03', damage=32102, label='Advanced Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=35, name='gregtech:gt.metaitem.01', damage=29086, label='Gold Foil'},
+  {type='item', size=35, name='gregtech:gt.metaitem.01', damage=29303, label='Electrum Foil'},
+  {type='fluid', size=1118, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=1118, name='ironiiichloride', damage=nil, label='Iron III Chloride'}},
+  {
+  {type='item', size=46, name='gregtech:gt.metaitem.03', damage=32103, label='More Advanced Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=32, name='gregtech:gt.metaitem.01', damage=29019, label='Aluminium Foil'},
+  {type='item', size=32, name='gregtech:gt.metaitem.01', damage=29366, label='Energetic Alloy Foil'},
+  {type='fluid', size=1000, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=2000, name='ironiiichloride', damage=nil, label='Iron III Chloride'}},
+  {
+  {type='item', size=32, name='gregtech:gt.metaitem.03', damage=32104, label='Elite Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=27, name='gregtech:gt.metaitem.01', damage=29052, label='Palladium Foil'},
+  {type='item', size=27, name='gregtech:gt.metaitem.01', damage=29085, label='Platinum Foil'},
+  {type='fluid', size=866, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=3464, name='ironiiichloride', damage=nil, label='Iron III Chloride'}},
+  {
+  {type='item', size=24, name='gregtech:gt.metaitem.03', damage=32105, label='Extreme Wetware Lifesupport Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=22, name='gregtech:gt.metaitem.01', damage=29582, label='Enriched Holmium Foil'},
+  {type='item', size=22, name='gregtech:gt.metaitem.01', damage=29360, label='Niobium-Titanium Foil'},
+  {type='fluid', size=707, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=7071, name='ironiiichloride', damage=nil, label='Iron III Chloride'},
+  {type='fluid', size=2828, name='growthmediumsterilized', damage=nil, label='Growth Catalyst Medium'}},
+  {
+  {type='item', size=16, name='gregtech:gt.metaitem.03', damage=32107, label='Ultra Bio Mutated Circuit Board'},
+  {type='item', size=1, name='gregtech:gt.metaitem.01', damage=17599, label='Polybenzimidazole Sheet'},
+  {type='item', size=16, name='gregtech:gt.metaitem.01', damage=29986, label='Superconductor Base UV Foil'},
+  {type='item', size=16, name='gregtech:gt.metaitem.01', damage=29129, label='Neutronium Foil'},
+  {type='fluid', size=500, name='sulfuricacid', damage=nil, label='Sulfuric Acid'},
+  {type='fluid', size=7500, name='ironiiichloride', damage=nil, label='Iron III Chloride'},
+  {type='fluid', size=4000, name='biohmediumsterilized', damage=nil, label='Sterilized Bio Catalyst Medium'}},
+}

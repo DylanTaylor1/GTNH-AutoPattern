@@ -42,6 +42,11 @@ local scripts = {
   dir .. '/TargetChamber.lua',
   dir .. '/BeamCrafter.lua',
   dir .. '/TPM.lua',
+  dir .. '/NFR.lua',
+  dir .. '/DEFC.lua',
+  dir .. '/PBC_T1.lua',
+  dir .. '/PBC_T2.lua',
+  dir .. '/PBC_T3.lua',
 }
 
 -- Create Folder
